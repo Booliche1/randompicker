@@ -108,7 +108,7 @@ const SlotMachinePicker = ({ tirageId, tirageLabel, totalBoxes }: SlotMachinePic
             value={inputs[index]}
             onChange={(e) => handleInputChange(index, e.target.value)}
             placeholder="Sram 199, Forgelance 200, ..."
-            className="w-full p-2 rounded text-black mb-2"
+            className="w-full p-2 rounded text-white mb-2"
             rows={2}
           />
           <CreatableSelect
